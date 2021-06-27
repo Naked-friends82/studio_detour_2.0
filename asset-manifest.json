@@ -1,12 +1,14 @@
 {
   "files": {
-    "main.js": "/studio_detour_2.0/static/js/main.a72c59a4.chunk.js",
-    "main.js.map": "/studio_detour_2.0/static/js/main.a72c59a4.chunk.js.map",
+    "main.css": "/studio_detour_2.0/static/css/main.478f3ca4.chunk.css",
+    "main.js": "/studio_detour_2.0/static/js/main.dde5ef05.chunk.js",
+    "main.js.map": "/studio_detour_2.0/static/js/main.dde5ef05.chunk.js.map",
     "runtime-main.js": "/studio_detour_2.0/static/js/runtime-main.838bba1a.js",
     "runtime-main.js.map": "/studio_detour_2.0/static/js/runtime-main.838bba1a.js.map",
     "static/js/2.a0d50e3e.chunk.js": "/studio_detour_2.0/static/js/2.a0d50e3e.chunk.js",
     "static/js/2.a0d50e3e.chunk.js.map": "/studio_detour_2.0/static/js/2.a0d50e3e.chunk.js.map",
     "index.html": "/studio_detour_2.0/index.html",
+    "static/css/main.478f3ca4.chunk.css.map": "/studio_detour_2.0/static/css/main.478f3ca4.chunk.css.map",
     "static/js/2.a0d50e3e.chunk.js.LICENSE.txt": "/studio_detour_2.0/static/js/2.a0d50e3e.chunk.js.LICENSE.txt",
     "static/media/1.546e9b53.PNG": "/studio_detour_2.0/static/media/1.546e9b53.PNG",
     "static/media/10.92e064c9.PNG": "/studio_detour_2.0/static/media/10.92e064c9.PNG",
@@ -68,6 +70,7 @@
   "entrypoints": [
     "static/js/runtime-main.838bba1a.js",
     "static/js/2.a0d50e3e.chunk.js",
-    "static/js/main.a72c59a4.chunk.js"
+    "static/css/main.478f3ca4.chunk.css",
+    "static/js/main.dde5ef05.chunk.js"
   ]
 }
