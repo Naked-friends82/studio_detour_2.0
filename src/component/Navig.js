@@ -2,8 +2,8 @@ import React from "react";
 import {Link} from 'react-router-dom'
 import logo from "../mainImg/LOGO.png";
 import nameLogo from "../mainImg/studioDETOUR_logo.png";
-// import "../css/nav.css";
-// import "../css_mobile/nav_mobile.css";
+import "../css/nav.css";
+import "../css_mobile/nav_mobile.css";
 
 
 const Navig = () => {
