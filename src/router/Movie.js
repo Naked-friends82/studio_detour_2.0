@@ -4,10 +4,10 @@ import Sam from "../component/Movie_sam";
 import Lasse from "../component/Movie_lasse";
 import Lee from "../component/Movie_lee";
 import movieBack from "../mainImg/movieBack.jpg";
-// import "../css/movie.css";
-// import "../css/movieComp.css";
-// import "../css_mobile/movie_mobile.css";
-// import "../css_mobile/movieComp_mobile.css";
+import "../css/movie.css";
+import "../css/movieComp.css";
+import "../css_mobile/movie_mobile.css";
+import "../css_mobile/movieComp_mobile.css";
 
 
 const Movie = () => {

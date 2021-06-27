@@ -1,0 +1,72 @@
+.artBox {
+  display: flex;
+  flex-direction: row;
+  margin-top: 60px;
+  margin-right: 30px;
+}
+.artBox .artEmptyBox {
+  flex-basis: 20%;
+}
+.artBox .artContBox {
+  display: flex;
+  flex-direction: column;
+}
+.artBox .artContBox .canvas {
+  position: fixed;
+  opacity: 0;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+}
+.artBox .artImg {
+  position: fixed;
+  z-index: 4;
+}
+.artBox .artCaption {
+  display: block;
+  position: fixed;
+  left: 70%;
+  top: 47%;
+  transform: translate(-30%, -53%);
+  color: wheat;
+  font-weight: bold;
+  pointer-events: none;
+  z-index: 4;
+}
+.artBox .artContBox .circleBox {
+  position: fixed;
+  top: 0px;
+  left: 28vw;
+  z-index: 3;
+}
+.artBox .artContBox .myWorkExpl {
+  margin-top: 30vh;
+  margin-bottom: 60px;
+  animation-name: slidein;
+  animation-duration: 5s;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  25% {
+    font-size: 150%;
+    margin-left: 50%;
+    width: 180%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+.artBox .artContBox .yearBtns .yearBtn {
+  padding-left: 0;
+  padding-right: 16px;
+  border: none;
+  background-color: transparent;
+  font-size: var(--font-small);
+  font-family: var(--typo-time);
+  cursor: pointer;
+}

@@ -1,0 +1,32 @@
+@media screen and (max-width: 768px) {
+  .compBox_m {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .compBox_m h2 {
+    padding-top: 60px;
+    margin-left: 3vw;
+  }
+  .compCont_m {
+    flex-direction: column;
+  }
+  .compIntr_m {
+    width: 92%;
+  }
+  .compImgBox_m {
+    width: 100%;
+    margin: 30px 0px;
+  }
+  .compImgBox_m .compImg_m {
+    width: 100%;
+  }
+  .compBox_m .bottom_m {
+    height: 80px;
+    margin-top: 30px;
+    margin-right: 10px;
+    text-align: end;
+  }
+}
+@media screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  /* 큰박스 */
+}

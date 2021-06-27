@@ -1,0 +1,35 @@
+@media screen and (max-width: 768px) {
+  .listBox {
+    margin-right: 0px;
+    overflow-x: hidden;
+  }
+  .listBox .listEmptyBox {
+    flex-basis: 18%;
+  }
+  .listBox .listImg {
+    position: fixed;
+    right: 0vw;
+  }
+  .adjust_W {
+    top: 30vh;
+    width: 100%;
+  }
+  .adjust_S {
+    top: 26vh;
+    width: 100%;
+  }
+  .adjust_H {
+    top: 22vh;
+    height: 70%;
+  }
+  .listBox .listContBox .year {
+    width: 225px;
+    margin: 10px;
+  }
+  .listEmptyBox .year {
+    margin-right: -34px;
+  }
+}
+@media screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  /* 큰박스 */
+}

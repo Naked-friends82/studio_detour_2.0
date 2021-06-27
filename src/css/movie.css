@@ -1,0 +1,32 @@
+.movieBack {
+  width: 100vw;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+}
+.movieNav {
+  position: fixed;
+  left: 2%;
+  top: 280px;
+}
+.movieNav .movieNavBtn {
+  width: 180px;
+  display: block;
+  margin: 6px 0;
+  border: none;
+  background-color: transparent;
+  font-size: var(--font-min);
+  font-weight: var(--weight-medium);
+  color: var(--color-ddarkgray);
+  text-align: left;
+  cursor: pointer;
+}
+.movieComp {
+  margin-left: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: var(--typo-myriad);
+}

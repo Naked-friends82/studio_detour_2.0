@@ -1,0 +1,41 @@
+.compBox {
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.compBox h2 {
+  padding-top: 120px;
+  margin-bottom: 40px;
+  font-size: var(--font-max);
+  font-weight: var(--weight-Extra-bold);
+  /* font-family: var(--typo-franklin); */
+  font-family: var(--typo-helve);
+}
+.compCont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.compIntr {
+  width: 250px;
+  font-size: var(--font-min);
+}
+.compIntr p {
+  margin: 10px 0;
+}
+.compImgBox {
+  margin: 0px 40px;
+}
+.compImgBox .compImg {
+  width: 400px;
+}
+.compBox .bottom {
+  height: 80px;
+  margin-top: 30px;
+  color: var(--color-darkgray);
+  text-align: end;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}

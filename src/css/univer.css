@@ -1,0 +1,72 @@
+/* 이쁘게 줄어들게 하는 법
+왼쪽에 emptybox 둬서 flex-basis로 조절
+오른쪽 여백은 margin-right
+메인 컨텐츠 큰박스, 작은박스 전부 width값 적용
+화면이 줄어들 때, 줄어들어서 밑으로 내려갈 일 없고
+여백만 줄어든다. */
+
+:root {
+  /* color */
+  --color-black: #00000c;
+  --color-white: #e8f1fa;
+  --color-gray: #dbdbdd;
+  --color-darkgray: #8b8b8f;
+  --color-ddarkgray: #5c5555;
+  --color-dddarkgray: #32393a;
+  --color-orange: #f24e1b;
+  --color-lightgreen: rgb(90, 201, 67);
+  --color-lightsky: rgb(96, 223, 255);
+  /* Font size */
+  --font-max: 22px;
+  --font-regular: 15px;
+  --font-small: 14px;
+  --font-min: 12px;
+  /* Font weight */
+  --weight-Extra-bold: 700;
+  --weight-bold: 600;
+  --weight-medium: 400;
+  --weight-light: 300;
+  /* Font family */
+  --typo-time: "times new roman";
+  --typo-helve: "Helvetica";
+  /* Google */
+  --typo-oswald: "Oswald", sans-serif;
+  --typo-inconsol: "Inconsolata", monospace;
+  --typo-noto: "Noto Serif KR", serif;
+  /* Adobe */
+  --typo-myriad: myriad-pro, sans-serif;
+  --typo-proxima: proxima-nova, sans-serif;
+  --typo-franklin: franklin-gothic-atf, sans-serif;
+}
+
+/* in Google */
+/* for Oswald, Inconsolata,Noto */
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;600;700&family=Noto+Serif+KR:wght@300;500;600;700&family=Oswald:wght@300;500;600&display=swap");
+/* in Adobe */
+/* for Myriad pro, Proxima, Franklin family */
+@import url("https://use.typekit.net/xls5cax.css");
+
+/* Univeral tags */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+h2 {
+  margin: 0px;
+}
+h3 {
+  margin: 0px;
+}
+p {
+  margin: 0px;
+}
+footer {
+  margin-top: 60px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: var(--weight-light);
+  font-size: var(--font-min);
+  color: var(--color-orange);
+}

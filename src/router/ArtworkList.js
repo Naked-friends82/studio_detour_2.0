@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState} from "react";
-// import "../css/artList.css";
-// import "../css_mobile/artList_mobile.css";
+import "../css/artList.css";
+import "../css_mobile/artList_mobile.css";
 //NFT
 import NFT1 from "../artworks/NFT/1.PNG";
 import NFT2 from "../artworks/NFT/2.PNG";

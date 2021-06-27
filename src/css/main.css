@@ -1,0 +1,53 @@
+.mainBack {
+  width: 100vw;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+}
+.mainBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+.mainBox .mainImg {
+  width: 620px;
+}
+.mainBox .copy {
+  position: relative;
+  left: 190px;
+  margin-top: 10px;
+  font-size: var(--font-min);
+  font-weight: var(--weight-bold);
+}
+.hello {
+  font-size: var(--font-max);
+  font-weight: var(--weight-medium);
+}
+/* .typo1 {
+  font-family: var(--typo-time);
+}
+.typo2 {
+  font-family: var(--typo-helve);
+}
+.typo3 {
+  font-family: var(--typo-oswald);
+}
+.typo4 {
+  font-family: var(--typo-inconsol);
+}
+.typo5 {
+  font-family: var(--typo-noto);
+}
+.typo6 {
+  font-family: var(--typo-myriad);
+}
+.typo7 {
+  font-family: var(--typo-proxima);
+}
+.typo8 {
+  font-family: var(--typo-franklin);
+} */

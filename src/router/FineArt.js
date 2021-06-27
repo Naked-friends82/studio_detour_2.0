@@ -5,10 +5,10 @@ import Moon from "../component/Fineart_moon";
 import Parr from "../component/Fineart_parr";
 import Hirst from "../component/Fineart_hirst";
 import fineArtBack from "../mainImg/fineArtBack.jpg";
-// import "../css/fineArt.css";
-// import "../css/fineArtComp.css";
-// import "../css_mobile/fineArt_mobile.css";
-// import "../css_mobile/fineArtComp_mobile.css";
+import "../css/fineArt.css";
+import "../css/fineArtComp.css";
+import "../css_mobile/fineArt_mobile.css";
+import "../css_mobile/fineArtComp_mobile.css";
 
 
 const FineArt = () => {

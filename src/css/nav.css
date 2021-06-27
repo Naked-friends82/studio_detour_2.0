@@ -1,0 +1,49 @@
+.navBox {
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 30px 12px;
+}
+.navBox .navBox_1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navBox .navBox_1 .navBox_1_parent:hover .navBox_1_hide {
+  display: flex;
+  flex-direction: column;
+  margin-left: 6px;
+}
+
+.navBox .navBox_1 .navBox_1_hide {
+  display: none;
+}
+.eachNav {
+  margin-left: 18px;
+  margin-top: 4px;
+  padding: 6px 0;
+  text-decoration: none;
+  color: var(--color-black);
+  font-family: var(--typo-time);
+  font-size: var(--font-min);
+}
+.eachNav:hover {
+  color: var(--color-white);
+}
+.navBox .navBox_2 {
+  position: fixed;
+  left: 50%;
+  transform: translate(-46%, 0);
+  top: 20px;
+  z-index: 2;
+}
+.navBox .navBox_2 .nameLogo {
+  height: 19px;
+}
+.navBox .navBox_3 {
+  position: relative;
+  top: -6px;
+  height: 24px;
+}

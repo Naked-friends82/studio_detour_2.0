@@ -1,0 +1,32 @@
+@media screen and (max-width: 768px) {
+  .navBox {
+    height: 120px;
+  }
+  .navBox .navBox_1 {
+    flex-direction: column;
+  }
+  .navBox .navBox_1 .navBox_1_parent {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2px;
+    margin-left: -10px;
+  }
+  .navBox .navBox_1 .navBox_1_parent:hover .navBox_1_hide {
+    flex-direction: row;
+  }
+  .eachNav {
+    margin-top: 0px;
+    padding-top: 2px 0px;
+  }
+  .navBox .navBox_2 {
+    right: 30px;
+    transform: translate(0, 0);
+    text-align: right;
+  }
+  .navBox .navBox_3 {
+    display: none;
+  }
+}
+@media screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  /* 큰박스 */
+}

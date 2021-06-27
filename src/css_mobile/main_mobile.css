@@ -1,0 +1,18 @@
+@media screen and (max-width: 768px) {
+  .mainBox {
+    margin-top: 120px;
+    margin-bottom: 50px;
+  }
+  .mainBox .mainImg {
+    width: 100%;
+  }
+  .mainBox .copy {
+    width: 100%;
+    margin-right: 30px;
+    text-align: right;
+    left: 0px;
+  }
+}
+@media screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  /* 큰박스 */
+}

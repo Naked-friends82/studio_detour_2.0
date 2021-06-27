@@ -1,0 +1,140 @@
+/* 모바일 버전 */
+@media screen and (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    margin-top: 35px;
+    height: 130px;
+    padding: 0px 0px;
+  }
+  .section {
+    flex-direction: column;
+    margin-top: 0;
+  }
+
+  /* 작은박스 */
+  nav,
+  aside {
+    flex-basis: 0%;
+  }
+  main {
+    flex-basis: 100%;
+    margin-left: 0px;
+  }
+
+  /* 메뉴바 만들기 */
+  .navbar {
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .navbar a {
+    float: left;
+    text-decoration: none;
+    padding: 7px 12px;
+  }
+
+  .subnavBtn {
+    align-items: right;
+  }
+
+  .subnav_content a {
+    text-decoration: none;
+    position: relative;
+    top: 0px;
+    height: 5px;
+    margin: 0px -5px;
+  }
+
+  .subnav:hover .subnav_content {
+    display: flex;
+    flex-direction: row;
+    left: 100px;
+    text-align: right;
+  }
+
+  /* 타이틀 메뉴 */
+  #header_title {
+    position: fixed;
+    text-align: right;
+    right: 30px;
+    left: 0;
+    top: 20px;
+    transform: translate(0, 0);
+    margin: 0;
+  }
+
+  /* 로고 링크 */
+  .header_links {
+    display: none;
+  }
+}
+@media screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  /* 큰박스 */
+  .header {
+    flex-direction: column;
+    margin-top: 35px;
+    height: 130px;
+    padding: 0px 0px;
+  }
+  .section {
+    flex-direction: column;
+    margin-top: 0;
+  }
+
+  /* 작은박스 */
+  nav,
+  aside {
+    flex-basis: 0%;
+  }
+  main {
+    flex-basis: 100%;
+    margin-left: 0px;
+  }
+
+  /* 메뉴바 만들기 */
+  .navbar {
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .navbar a {
+    float: left;
+    text-decoration: none;
+    padding: 7px 12px;
+  }
+
+  .subnavBtn {
+    align-items: right;
+  }
+
+  .subnav_content a {
+    text-decoration: none;
+    position: relative;
+    top: 0px;
+    height: 5px;
+    margin: 0px -5px;
+  }
+
+  .subnav:hover .subnav_content {
+    display: flex;
+    flex-direction: row;
+    left: 100px;
+    text-align: right;
+  }
+
+  /* 타이틀 메뉴 */
+  #header_title {
+    position: fixed;
+    text-align: right;
+    right: 30px;
+    left: 0;
+    top: 20px;
+    transform: translate(0, 0);
+    margin: 0;
+  }
+
+  /* 로고 링크 */
+  .header_links {
+    display: none;
+  }
+}

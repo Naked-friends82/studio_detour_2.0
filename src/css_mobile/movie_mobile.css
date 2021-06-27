@@ -1,0 +1,25 @@
+@media screen and (max-width: 768px) {
+  .movieBack {
+    width: 100%;
+  }
+  .movieNav {
+    position: fixed;
+    left: 94%;
+    transform: translate(-90%, 0);
+    top: 60%;
+  }
+  .movieNav .movieNavBtn {
+    margin: 6px 0;
+    text-align: right;
+    color: var(--color-lightsky);
+  }
+  .movieComp {
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  /* 큰박스 */
+}
