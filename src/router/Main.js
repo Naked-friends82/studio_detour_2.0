@@ -14,14 +14,6 @@ const Main = () => {
 
   return(
     <main className="mainBox">
-      {/* <div className="hello typo1">Hello this is typo Test plese say anything</div>
-      <div className="hello typo2">Hello this is typo Test plese say anything</div>
-      <div className="hello typo3">Hello this is typo Test plese say anything</div>
-      <div className="hello typo4">Hello this is typo Test plese say anything</div>
-      <div className="hello typo5">Hello this is typo Test plese say anything</div>
-      <div className="hello typo6">Hello this is typo Test plese say anything</div>
-      <div className="hello typo7">Hello this is typo Test plese say anything</div>
-      <div className="hello typo8">Hello this is typo Test plese say anything</div> */}
       <img className="mainBack" src={mainBack} alt="background" />
       {main ? (
         <img className="mainImg" onClick={changeMain} src={mainImg2} alt="Detour sign in the road" />
