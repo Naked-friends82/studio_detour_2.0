@@ -1,5 +1,5 @@
 import React from 'react';
-import {HashRouter as Router, Route, Switch} from 'react-router-dom';
+import {HashRouter as Router, Redirect, Route, Switch} from 'react-router-dom';
 import Navig from "./Navig";
 import Main from "../router/Main";
 import ArtworkList from "../router/ArtworkList";
@@ -28,6 +28,7 @@ const AppRouter = () => {
       <Route exact path="/cv">
         <Cv />
       </Route>
+      <Redirect from="*" to="/" />
     </Switch>
   </Router>
     
