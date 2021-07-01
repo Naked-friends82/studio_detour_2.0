@@ -10,21 +10,23 @@
 }
 .listBox .listImg {
   position: fixed;
-  right: 10vw;
   z-index: -1;
   opacity: 0.85;
 }
 .adjust_W {
-  top: 20vh;
   width: 600px;
+  top: 20vh;
+  right: 10vw;
 }
 .adjust_S {
-  top: 20vh;
   width: 500px;
+  top: 20vh;
+  right: 10vw;
 }
 .adjust_H {
-  top: 15vh;
   height: 600px;
+  top: 15vh;
+  right: 10vw;
 }
 .listBox .listContBox {
   display: flex;

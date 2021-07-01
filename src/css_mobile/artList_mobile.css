@@ -8,17 +8,19 @@
   }
   .listBox .listImg {
     position: fixed;
-    right: 0vw;
   }
   .adjust_W {
-    top: 30vh;
     width: 100%;
+    top: 30vh;
+    right: 0vw;
   }
   .adjust_S {
-    top: 26vh;
     width: 100%;
+    top: 26vh;
+    right: 0vw;
   }
   .adjust_H {
+    right: 4vw;
     top: 22vh;
     height: 70%;
   }
