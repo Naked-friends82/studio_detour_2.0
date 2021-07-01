@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.f0233799.chunk.css",
-    "main.js": "/static/js/main.89d5e829.chunk.js",
-    "main.js.map": "/static/js/main.89d5e829.chunk.js.map",
+    "main.css": "/static/css/main.07c9bf78.chunk.css",
+    "main.js": "/static/js/main.09ef93d6.chunk.js",
+    "main.js.map": "/static/js/main.09ef93d6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1f61d851.js",
     "runtime-main.js.map": "/static/js/runtime-main.1f61d851.js.map",
     "static/js/2.9b294f5c.chunk.js": "/static/js/2.9b294f5c.chunk.js",
     "static/js/2.9b294f5c.chunk.js.map": "/static/js/2.9b294f5c.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.f0233799.chunk.css.map": "/static/css/main.f0233799.chunk.css.map",
+    "static/css/main.07c9bf78.chunk.css.map": "/static/css/main.07c9bf78.chunk.css.map",
     "static/js/2.9b294f5c.chunk.js.LICENSE.txt": "/static/js/2.9b294f5c.chunk.js.LICENSE.txt",
     "static/media/1.546e9b53.PNG": "/static/media/1.546e9b53.PNG",
     "static/media/10.92e064c9.PNG": "/static/media/10.92e064c9.PNG",
@@ -32,6 +32,7 @@
     "static/media/TheProcessOfWordsBecomingBelief.1856d0c3.webp": "/static/media/TheProcessOfWordsBecomingBelief.1856d0c3.webp",
     "static/media/afterSpiderManLeft.97bf2db4.webp": "/static/media/afterSpiderManLeft.97bf2db4.webp",
     "static/media/background.c3dd4a75.png": "/static/media/background.c3dd4a75.png",
+    "static/media/burnOut.7b78788e.webp": "/static/media/burnOut.7b78788e.webp",
     "static/media/burning_1.6562662c.jpg": "/static/media/burning_1.6562662c.jpg",
     "static/media/burning_2.2c4549d8.jpg": "/static/media/burning_2.2c4549d8.jpg",
     "static/media/clawMachineGame.da74fa8d.webp": "/static/media/clawMachineGame.da74fa8d.webp",
@@ -70,7 +71,7 @@
   "entrypoints": [
     "static/js/runtime-main.1f61d851.js",
     "static/js/2.9b294f5c.chunk.js",
-    "static/css/main.f0233799.chunk.css",
-    "static/js/main.89d5e829.chunk.js"
+    "static/css/main.07c9bf78.chunk.css",
+    "static/js/main.09ef93d6.chunk.js"
   ]
 }
