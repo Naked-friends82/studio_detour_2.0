@@ -22,6 +22,7 @@ import rule from '../artworks/2021/rule.webp';
 import pushedOut from '../artworks/2021/pushedOut.webp';
 import clawMachineGame from '../artworks/2021/clawMachineGame.webp';
 import embedded from '../artworks/2021/embedded.webp';
+import burnOut from '../artworks/2021/burnOut.webp';
 //2020
 import afterSpiderManLeft from '../artworks/2020/afterSpiderManLeft.webp';
 import contemporarySunflower from '../artworks/2020/contemporarySunflower.webp';
@@ -142,6 +143,11 @@ const IMG = [
       'id': 'Embedded',
       'src': embedded,
       'wshType' : "w",
+  },
+  {
+    'id': 'Burn Out',
+    'src': burnOut,
+    'wshType' : "w",
   },
     //2020년도
     {
@@ -355,6 +361,14 @@ const ArtworkList = () => {
             </p>
             <button className="title" onClick={showWork} value="Embedded">
                 Embedded
+            </button>
+            <p>
+                digital prints on paper <br />
+                non-fixed <br />
+                2021
+            </p>
+            <button className="title" onClick={showWork} value="Burn Out">
+                Burn Out
             </button>
             <p>
                 digital prints on paper <br />
