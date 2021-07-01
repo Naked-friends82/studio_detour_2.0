@@ -2,7 +2,7 @@ import React from "react";
 import CVImg from "../mainImg/cv.jpg";
 import cvBack from "../mainImg/cvBack.jpeg";
 import "../css/cv.css";
-import "../css_mobile/cvs_mobile.css";
+import "../css_mobile/cv_mobile.css";
 
 const Cv = () => {
   return(

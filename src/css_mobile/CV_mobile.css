@@ -1,61 +1,39 @@
-/* 모바일 버전 */
 @media screen and (max-width: 768px) {
-  .containermain {
-    flex-direction: column;
+  .cvBack {
+    width: 100%;
   }
-  #Box1 {
+  .cvBox {
+    width: 100%;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .cvEmpt {
     order: 3;
   }
-  #Box2 {
+  .cvIntr {
     order: 2;
-    margin-top: 20px;
-    margin-left: 30px;
-  }
-  #Box3 {
-    order: 1;
     width: 100%;
-    align-items: center;
+    margin-left: 60px;
   }
-
-  #hand {
-    margin-left: 0px;
-    margin-top: 0px;
+  .cvIntr .eachIntr {
+    margin-top: 10px;
+    width: 340px;
+  }
+  .cvImgBox {
+    order: 1;
+  }
+  .cvImg {
+    width: 75%;
     position: static;
     left: 50%;
     transform: translate(15%, 0);
-    width: 75%;
-  }
-  footer {
-    padding-top: 50px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 30px;
   }
 }
 @media screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
-  .containermain {
-    flex-direction: column;
-  }
-  #Box1 {
-    order: 3;
-  }
-  #Box2 {
-    order: 2;
-    margin-top: 20px;
-    margin-left: 30px;
-  }
-  #Box3 {
-    order: 1;
-    width: 100%;
-    align-items: center;
-  }
-
-  #hand {
-    margin-left: 0px;
-    margin-top: 0px;
-    position: static;
-    left: 50%;
-    transform: translate(15%, 0);
-    width: 75%;
-  }
-  footer {
-    padding-top: 50px;
-  }
+  /* 큰박스 */
 }
